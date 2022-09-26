@@ -1,16 +1,53 @@
 .container {
-    width: 50%;
-    margin: 20px auto 0px auto;
+    width: 40%;
+    margin: 10px auto;
+    background-color: #92C9C6;
+    border: 50px solid #BBDDDC;
+    border-radius: 20px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
 }
-
-removed {
-    color: gray;
+h1{
+    text-align: center;
+    color: white;
 }
-
-.removed label {
-    text-decoration: line-through;
-}
-
 ul li {
     list-style-type: none;
+    color: white;
+}
+em{
+    color: white;
+}
+.btnADD{
+    height: 38px;
+    width: 110px;
+    font-weight: bolder;
+    font-size: 1em;
+    color: white;
+    background-color: #66151D;
+    border-radius: 10px;
+    margin: 10px;
+}
+.addtarefas{
+    height: 38px;
+    width: 75%;
+    font-size: 0.8em;
+    color: antiquewhite;
+    border-radius: 10px;
+    margin: 10px;
+}
+.removed label {
+    text-decoration: line-through;
+    color: white;
+}
+.change-title{
+    color: #444433;
+    text-align: center;
+    margin-left: 170px;
+}
+
+.btnRemover{
+    background-color:#66151D;
+    margin-left: 285px;
 }
